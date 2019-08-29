@@ -4,7 +4,7 @@ Udacity Capstone Project
 
 
 
-#Installation
+
 
 #Motivation
 Capstone Project for Udacity Data Science Nano Degree
@@ -12,6 +12,7 @@ Capstone Project for Udacity Data Science Nano Degree
 #Included files
 This READme file
 The Notebook for this project.
+
 
 #Problem Statement
 
@@ -95,6 +96,10 @@ Furthermore, because of the glitch in the MMLIB evaluations library, where all m
 Unable to deploy on an AWS cloud service because in a matter of three days, the maximum allowable s3 requests on the Free Tier had been exhausted for the month of August and the project was due before that date, therefore on the mini-subet was used. 
 
 Due to time constraints, the various Parameter grids were not as extensive as I would have liked to explore. 
+
+#Other sources
+
+https://medium.com/@kevinpearson_20937/identifying-churn-candidates-541a77d0a56
 
 
 #Acknowledgements. 
