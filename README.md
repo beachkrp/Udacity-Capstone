@@ -89,6 +89,16 @@ Unfortunately, the logs do not specify artists or genres, which might have been 
 
 Furthermore, because of the glitch in the MMLIB evaluations library, where all metrics are actually returned as accuracy, the F1, precision
 
+#Refinements
+
+Technically, the intial result was the results from the Logistic Regrssion Model.   Each subsequent model would be considered to be an attempt to refine the original Logistic Regression Model.
+
+The final result was the choice of the Naive Bayes model, which gave, not just an improved accuracy over the test set but also a higher recall and precision, observed just by visual inspection of the confusion matrix.
+
+However, an attempt to further refine the Naive Bayes model was done by retuning the model with an expanced grid.  
+
+The final results of this expanded grid search gave the exact same results as the first attempt.
+
 
 
 #Limitations
